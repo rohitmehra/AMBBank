@@ -9,7 +9,7 @@ public class BalanceController {
 
 	public void analyze(String email_id, String commit_id) {
 		System.out.println("Analysis Violations Started For: " + email_id + " @ " + UsefulMethods.currentTime());
-
+		int x=1;x++;
 		Jenkins jenkins = new Jenkins();
 
 		Configuration cfg = new Configuration();
